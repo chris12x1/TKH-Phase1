@@ -68,7 +68,7 @@ Host Machine
 
 | Week | Focus | Artifact Location |
 |-----|------|------|
-| Week 1 | Linux Navigation, Access Control, Stream Editing | `Week1-Artifact/` |
+| Week 1 | Linux Navigation, Access Control, Stream Editing | [`Week1-Artifact/`](https://github.com/chris12x1/TKH-Phase1/tree/main/Week1-Artifact) |
 | Week 2 | Access Control & Cryptography | Coming Soon |
 | Week 3 | Automation & Bash Scripting | Coming Soon |
 | Week 4 | Reconnaissance & Security Analysis | Coming Soon |
