@@ -16,17 +16,18 @@ This repo serves as a **living technical artifact archive**, with scripts, logs,
 
 | Week | Dates | Theme | Status |
 |------|-------|-------|--------|
-| 01   | Mar 10–12 | Terminal, Permissions, Stream Editing, Git | ✅ |
-| 02   | Mar 17–19 | Access Control, Cryptography, Networking | ⏳ |
-| 03   | Mar 24–26 | Advanced Automation, Bash Scripting, Cron | ⏳ |
-| 04   | Mar 31–Apr 2 | Reconnaissance, OSINT, Threat Modeling | ⏳ |
+| 01   | Mar 09–13 | Terminal, Permissions, Stream Editing, Git | ✅ |
+| 02   | Mar 16–20 | Access Control, Cryptography, Networking | ⏳ |
+| 03   | Mar 23–27 | Advanced Automation, Bash Scripting, Cron | ⏳ |
+| 04   | Mar 30–Apr 3 | Reconnaissance, OSINT, Threat Modeling | ⏳ |
 
 ---
 
 ## Repository Structure
 
-
+```
 TKH-Phase1
+
 │
 ├── Week1-Artifact
 │   ├── discovery.txt
@@ -35,6 +36,7 @@ TKH-Phase1
 │
 └── README.md
 
+```
 All Week 1 artifacts are stored in the Week1-Artifact folder.
 
 Lab Environment
