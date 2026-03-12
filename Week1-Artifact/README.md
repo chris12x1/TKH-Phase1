@@ -48,8 +48,13 @@ cat token.txt
 
 Artifact Creation:
 
+```
+
 cd ~
 nano discovery.txt
+
+```
+
 # Enter collected intel (paths and secrets)
 
 harden.sh — Access Control Matrix
@@ -95,18 +100,32 @@ Theme: The Holy Trinity — grep, sed, awk
 Workflow Example:
 
 # Identify failed passwords
+
+```
+
 cat auth.log | grep "Failed password" | wc -l
 
+```
+
 # Find unique attacker IPs from SQL Injection logs
+
+```
+
 grep "UNION SELECT" access.log | awk '{print $1}' | sort | uniq > threat_ips.txt
+
+```
 
 Submission Notes
 
 All artifacts were submitted via the fellowship session-submit commands:
 
+```
+
 session-submit --session 01 --artifact ~/discovery.txt
 session-submit --session 02 --artifact ~/harden.sh
 session-submit --session 03 --artifact ~/threat_ips.txt
+
+```
 
 References
 
