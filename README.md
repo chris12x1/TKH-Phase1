@@ -1,88 +1,87 @@
-# TKH Innovation Fellowship — Phase 1 Cybersecurity
-Class of 2026 — The Knowledge House
+# TKH Innovation Fellowship — Phase 1
+Cybersecurity Foundations Portfolio  
+The Knowledge House — Class of 2026
 
 ---
 
 ## Overview
 
-This repository contains my **Phase 1 cybersecurity artifacts** for the TKH Innovation Fellowship.  
-The work covers **Linux navigation, access control, stream editing, and automation**, demonstrating hands-on mastery of system administration and security fundamentals.
+This repository documents my **Phase 1 cybersecurity training** during the Innovation Fellowship at The Knowledge House.
 
-This repo serves as a **living technical artifact archive**, with scripts, logs, and notes documenting all lab exercises completed in Week 1.
+The focus of this phase is developing foundational skills in:
 
----
+- Linux system navigation
+- Access control and permissions
+- Bash scripting and automation
+- Log analysis and threat detection
+- Git-based technical documentation
 
-## Weekly Coverage — Phase 1
-
-| Week | Dates | Theme | Status |
-|------|-------|-------|--------|
-| 01   | Mar 09–13 | Terminal, Permissions, Stream Editing, Git | ✅ |
-| 02   | Mar 16–20 | Access Control, Cryptography, Networking | ⏳ |
-| 03   | Mar 23–27 | Advanced Automation, Bash Scripting, Cron | ⏳ |
-| 04   | Mar 30–Apr 3 | Reconnaissance, OSINT, Threat Modeling | ⏳ |
+Each week includes hands-on labs where artifacts are generated and committed to this repository as part of a growing cybersecurity portfolio.
 
 ---
 
 ## Repository Structure
-
 ```
 TKH-Phase1
 │
 ├── Week1-Artifact
-│   ├── discovery.txt
-│   ├── harden.sh
-│   └── threat_ips.txt
+│ ├── discovery.txt
+│ ├── harden.sh
+│ └── threat_ips.txt
 │
 └── README.md
-
 ```
-All Week 1 artifacts are stored in the Week1-Artifact folder.
 
-Lab Environment
+---
 
-Host Machine: Windows running VS Code
+## Lab Environment
 
-Virtualization: VirtualBox
-
-Guest VM: Ubuntu Server
-
-Tools: Bash scripts, Linux CLI utilities
+All labs were performed inside an isolated virtual environment.
 ```
 Host Machine
 │
 ├── VS Code
 │
 └── VirtualBox
-    │
-    └── Ubuntu Server VM
-        │
-        ├── discovery.txt
-        ├── harden.sh
-        └── threat_ips.txt
+│
+└── Ubuntu Server VM
+│
+├── discovery.txt
+├── harden.sh
+└── threat_ips.txt
 ```
-Skills Demonstrated
 
-Linux navigation and file system hierarchy (FHS)
+---
 
-File and directory permissions
+## Skills Demonstrated
 
-Bash scripting and automation
+- Linux command line navigation
+- File and directory permission management
+- Bash scripting for system hardening
+- Log analysis using `grep`, `awk`, and `sed`
+- Identifying malicious IP activity
+- Git version control for artifact tracking
 
-Log analysis and stream editing (grep, sed, awk)
+---
 
-Git version control and GitHub portfolio integration
+## Weekly Artifacts
 
-Networking fundamentals via simulated attacks
+| Week | Focus | Artifact Location |
+|-----|------|------|
+| Week 1 | Linux Navigation, Access Control, Stream Editing | `Week1-Artifact/` |
+| Week 2 | Access Control & Cryptography | Coming Soon |
+| Week 3 | Automation & Bash Scripting | Coming Soon |
+| Week 4 | Reconnaissance & Security Analysis | Coming Soon |
 
-Artifact creation and documentation
+---
 
-References
+## References
 
-Chapple, M., Stewart, J. M., & Gibson, D. (2021).
-ISC2 CISSP Certified Information Systems Security Professional Official Study Guide (9th ed.).
+Center for Internet Security. (2024). *CIS Controls Version 8.1*.  
+https://www.cisecurity.org/controls/v8-1
 
-NIST. (2022).
-NICE Cybersecurity Workforce Framework (NIST SP 800-181r1).
+National Institute of Standards and Technology. (2023). *Zero Trust Architecture (SP 800-207).*  
+https://doi.org/10.6028/NIST.SP.800-207
 
-Built during the Innovation Fellowship Cybersecurity Program
-The Knowledge House
+National Institute of Standards and Technology. (2024). *The NIST Cybersecurity Framework (CSF) 2.0.*  
+https://doi.org/10.6028/NIST.ITL.2024.01
