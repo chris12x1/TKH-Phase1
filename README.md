@@ -27,7 +27,6 @@ This repo serves as a **living technical artifact archive**, with scripts, logs,
 
 ```
 TKH-Phase1
-
 │
 ├── Week1-Artifact
 │   ├── discovery.txt
@@ -48,7 +47,7 @@ Virtualization: VirtualBox
 Guest VM: Ubuntu Server
 
 Tools: Bash scripts, Linux CLI utilities
-
+```
 Host Machine
 │
 ├── VS Code
@@ -60,7 +59,7 @@ Host Machine
         ├── discovery.txt
         ├── harden.sh
         └── threat_ips.txt
-
+```
 Skills Demonstrated
 
 Linux navigation and file system hierarchy (FHS)
