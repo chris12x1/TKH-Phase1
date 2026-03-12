@@ -1,5 +1,3 @@
-# Week1-Artifact README.md (Inside `Week1-Artifact` Folder)
-
 # Phase 1 — Week 1 Artifacts
 The Knowledge House — Innovation Fellowship
 
@@ -127,13 +125,16 @@ session-submit --session 03 --artifact ~/threat_ips.txt
 
 ```
 
-References
+## References
 
-Chapple, M., Stewart, J. M., & Gibson, D. (2021).
-ISC2 CISSP Certified Information Systems Security Professional Official Study Guide (9th ed.).
+Linux Foundation. (2023). *Introduction to Linux*.  
+https://training.linuxfoundation.org/resources/introduction-to-linux/
 
-NIST. (2022).
-NICE Cybersecurity Workforce Framework (NIST SP 800-181r1).
+Red Hat. (2024). *Linux File Permissions Explained*.  
+https://www.redhat.com/sysadmin/linux-file-permissions-explained
+
+The GNU Project. (2023). *Bash Reference Manual*.  
+https://www.gnu.org/software/bash/manual/
 
 
 
