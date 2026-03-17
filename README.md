@@ -27,6 +27,7 @@ TKH-Phase1
 ├── Week1-Artifact
 │ ├── discovery.txt
 │ ├── harden.sh
+| ├── final_threat_report.txt
 │ └── threat_ips.txt
 │
 └── README.md
@@ -48,6 +49,7 @@ Host Machine
 │
 ├── discovery.txt
 ├── harden.sh
+├── final_threat_report.txt
 └── threat_ips.txt
 ```
 
