@@ -1,4 +1,0 @@
-default via 192.168.10.1 dev enp0s3 
-03:10:25.299577 lo    In  IP 192.168.10.150.39664 > 192.168.10.193.80: Flags [S], seq 2741646609, win 65495, options [mss 65495,sackOK,TS val 411776112 ecr 0,nop,wscale 7], length 0
-03:10:25.299589 lo    In  IP 192.168.10.193.80 > 192.168.10.150.39664: Flags [S.], seq 3959432648, ack 2741646610, win 65483, options [mss 65495,sackOK,TS val 4071088324 ecr 411776112,nop,wscale 7], length 0
-03:10:25.299599 lo    In  IP 192.168.10.150.39664 > 192.168.10.193.80: Flags [.], ack 1, win 512, options [nop,nop,TS val 411776112 ecr 4071088324], length 0
