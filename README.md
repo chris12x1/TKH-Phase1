@@ -37,26 +37,6 @@ TKH-Phase1/
 
 ---
 
-## Lab Environment
-
-All labs were performed inside an isolated virtual environment.
-```
-Host Machine
-│
-├── VS Code
-│
-└── VirtualBox
-│
-└── Ubuntu Server VM
-│
-├── discovery.txt
-├── harden.sh
-├── final_threat_report.txt
-└── threat_ips.txt
-```
-
----
-
 ## Weekly Breakdown
 
 | Week | Focus | Key Artifacts |
