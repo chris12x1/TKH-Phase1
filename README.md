@@ -8,27 +8,29 @@ The Knowledge House — Class of 2026
 
 This repository documents my **Phase 1 cybersecurity training** during the Innovation Fellowship at The Knowledge House.
 
-The focus of this phase is developing foundational skills in:
+This phase focuses on building hands-on defensive security skills through Linux-based labs, scripting, and incident response simulations.
 
-- Linux system navigation
-- Access control and permissions
-- Bash scripting and automation
-- Log analysis and threat detection
-- Git-based technical documentation
+Core areas include:
 
-Each week includes hands-on labs where artifacts are generated and committed to this repository as part of a growing cybersecurity portfolio.
+- Linux system navigation & permissions
+- Network troubleshooting & subnetting
+- Log analysis & threat detection
+- Python-based security automation
+- Infrastructure hardening (VMs & containers)
+
+Each week contains artifacts that demonstrate practical application of these skills in simulated real-world scenarios.
 
 ---
 
 ## Repository Structure
 ```
-TKH-Phase1
+TKH-Phase1/
 │
 ├── Week1-Artifact
-│ ├── discovery.txt
-│ ├── harden.sh
-| ├── final_threat_report.txt
-│ └── threat_ips.txt
+├── Week2-Artifact
+├── Week3-Artifact
+├── Week4-Artifact
+├── Week5-Artifact
 │
 └── README.md
 ```
@@ -55,35 +57,25 @@ Host Machine
 
 ---
 
-## Skills Demonstrated
+## Weekly Breakdown
 
-- Linux command line navigation
-- File and directory permission management
-- Bash scripting for system hardening
-- Log analysis using `grep`, `awk`, and `sed`
-- Identifying malicious IP activity
-- Git version control for artifact tracking
-
----
-
-## Weekly Artifacts
-
-| Week | Focus | Artifact Location |
-|-----|------|------|
-| Week 1 | Linux Navigation, Access Control, Stream Editing | [`Week1-Artifact`](https://github.com/chris12x1/TKH-Phase1/tree/main/Week1-Artifact) |
-| Week 2 | Access Control & Cryptography | [`Week2-Artifact`](https://github.com/chris12x1/TKH-Phase1/tree/main/Week2-Artifact) |
-| Week 3 | Automation & Bash Scripting | [`Week3-Artifact`](https://github.com/chris12x1/TKH-Phase1/tree/main/Week3-Artifact) |
-| Week 4 | Reconnaissance & Security Analysis | [`Week4-Artifact`](https://github.com/chris12x1/TKH-Phase1/tree/main/Week4-Artifact) |
-
+| Week | Focus | Key Artifacts |
+|------|------|--------------|
+| [`Week1`](https://github.com/chris12x1/TKH-Phase1/tree/main/Week1-Artifact) | Linux, Permissions, Log Analysis | discovery.txt, harden.sh, threat_ips.txt |
+| [`Week2`](https://github.com/chris12x1/TKH-Phase1/tree/main/Week2-Artifact) | Networking, Subnetting, Protocol Analysis | network_audit.txt, subnet_blueprint.txt |
+| [`Week3`](https://github.com/chris12x1/TKH-Phase1/tree/main/Week3-Artifact) | Python Automation & Security Scripting | port_check.py, brute_detector.py |
+| [`Week4`](https://github.com/chris12x1/TKH-Phase1/tree/main/Week4-Artifact) | Virtualization & Container Security | sandbox_report.txt, deploy_web.sh |
+| [`Week5`](https://github.com/chris12x1/TKH-Phase1/tree/main/Week5-Artifact) |
 ---
 
 ## References
 
-Center for Internet Security. (2024). *CIS Controls Version 8.1*.  
-https://www.cisecurity.org/controls/v8-1
+- Center for Internet Security — CIS Controls v8.1  
+- NIST — Cybersecurity Framework (CSF) 2.0  
+- NIST — Zero Trust Architecture (SP 800-207)
 
-National Institute of Standards and Technology. (2023). *Zero Trust Architecture (SP 800-207).*  
-https://doi.org/10.6028/NIST.SP.800-207
+---
 
-National Institute of Standards and Technology. (2024). *The NIST Cybersecurity Framework (CSF) 2.0.*  
-https://doi.org/10.6028/NIST.ITL.2024.01
+## Notes
+
+This repository is continuously updated as I progress through the program and expand my cybersecurity skillset.
