@@ -1,61 +1,110 @@
-# TKH Innovation Fellowship — Phase 1
-Cybersecurity Foundations Portfolio  
-The Knowledge House — Class of 2026
+# 🛡️ Cybersecurity Engineering Portfolio — Christopher Diaz
+
+Hands-on cybersecurity lab portfolio demonstrating real-world skills in Linux, networking, system hardening, containerization, and enterprise identity management.
 
 ---
 
-## Overview
+## 👨‍💻 About Me
 
-This repository documents my **Phase 1 cybersecurity training** during the Innovation Fellowship at The Knowledge House.
-
-This phase focuses on building hands-on defensive security skills through Linux-based labs, scripting, and incident response simulations.
-
-Core areas include:
-
-- Linux system navigation & permissions
-- Network troubleshooting & subnetting
-- Log analysis & threat detection
-- Python-based security automation
-- Infrastructure hardening (VMs & containers)
-
-Each week contains artifacts that demonstrate practical application of these skills in simulated real-world scenarios.
+Cybersecurity-focused IT professional with hands-on experience building and securing systems across Linux and Windows environments. This repository showcases practical lab work simulating real enterprise scenarios, including Active Directory deployment, automation, and cross-platform authentication.
 
 ---
 
-## Repository Structure
-```
-TKH-Phase1/
-│
-├── Week1-Artifact
-├── Week2-Artifact
-├── Week3-Artifact
-├── Week4-Artifact
-├── Week5-Artifact
-│
-└── README.md
-```
+## 🚀 What This Repository Proves
+
+✔️ I can build and manage Linux systems from the command line  
+✔️ I understand networking fundamentals and troubleshooting  
+✔️ I can secure and harden systems  
+✔️ I can deploy and manage containerized environments  
+✔️ I can design and manage enterprise identity systems (Active Directory)  
+✔️ I can automate administrative tasks using scripting (Bash & PowerShell)  
 
 ---
 
-## Weekly Breakdown
+## 🧰 Technologies & Tools
 
-| Week | Focus | Key Artifacts |
-|------|------|--------------|
-| [`Week1`](https://github.com/chris12x1/TKH-Phase1/tree/main/Week1-Artifact) | Linux, Permissions, Log Analysis | discovery.txt, harden.sh, threat_ips.txt |
-| [`Week2`](https://github.com/chris12x1/TKH-Phase1/tree/main/Week2-Artifact) | Networking, Subnetting, Protocol Analysis | network_audit.txt, subnet_blueprint.txt |
-| [`Week3`](https://github.com/chris12x1/TKH-Phase1/tree/main/Week3-Artifact) | Python Automation & Security Scripting | port_check.py, brute_detector.py |
-| [`Week4`](https://github.com/chris12x1/TKH-Phase1/tree/main/Week4-Artifact) | Virtualization & Container Security | sandbox_report.txt, deploy_web.sh |
-| [`Week5`](https://github.com/chris12x1/TKH-Phase1/tree/main/Week5-Artifact) |
----
-
-## References
-
-- Center for Internet Security — CIS Controls v8.1  
-- NIST — Cybersecurity Framework (CSF) 2.0  
-- NIST — Zero Trust Architecture (SP 800-207)
+- Linux (Ubuntu)
+- Windows Server 2022
+- Active Directory (AD DS)
+- PowerShell
+- Bash
+- Docker
+- SSSD / realmd
+- Git & GitHub
 
 ---
 
-## Notes
+## 📂 Project Structure
 
-This repository is continuously updated as I progress through the program and expand my cybersecurity skillset.
+- **week1-linux** → Linux system administration  
+- **week2-networking** → Network analysis & troubleshooting  
+- **week3-security** → System hardening & auditing  
+- **week4-containers** → Docker & automation  
+- **week5-identity** → Active Directory & IAM  
+
+
+---
+
+## 📌 Highlight Projects
+
+### 🏢 Enterprise Identity Deployment (Week 5)
+- Promoted Windows Server to Domain Controller
+- Built full Active Directory forest (`titan.local`)
+- Automated user provisioning with PowerShell
+- Enforced security policies using GPOs
+- Integrated Linux system into Windows domain
+
+### 🐳 Containerized Environment (Week 4)
+- Built and deployed Docker containers
+- Managed images and runtime environments
+- Practiced scalable application deployment
+
+### 🔐 System Hardening & Audit (Week 3)
+- Performed security audits
+- Applied system hardening techniques
+- Analyzed logs and access controls
+
+---
+
+## 📊 Key Artifacts
+
+| Week | Artifact | Description |
+|------|--------|------------|
+| 3 | `security_audit.txt` | System vulnerability audit |
+| 4 | `docker_setup.sh` | Container deployment script |
+| 5 | `onboard_engineers.ps1` | Automated AD user provisioning |
+| 5 | `gpo_audit.txt` | Group Policy audit report |
+| 5 | `unified_identity.png` | Cross-platform authentication proof |
+
+---
+
+## 🧪 Skills Demonstrated
+
+- Linux Administration
+- Networking & Troubleshooting
+- Security Hardening
+- Scripting & Automation
+- Identity & Access Management (IAM)
+- Active Directory & Group Policy
+- Cross-Platform Authentication
+
+---
+
+## 📈 Current Focus
+
+- Expanding into cybersecurity analysis & defense
+- Building more real-world attack/defense labs
+- Preparing for entry-level cybersecurity roles
+
+---
+
+## 📬 Contact
+
+- [GitHub](https://github.com/chris12x1)
+- [LinkedIn](https://www.linkedin.com/in/christopherdiaz87)
+
+---
+
+## 🎯 Goal
+
+To secure a role in cybersecurity or IT where I can apply hands-on skills in system administration, security, and infrastructure management.
