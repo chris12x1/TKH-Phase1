@@ -1,23 +1,23 @@
 # 🛡️ Cybersecurity Engineering Portfolio — Christopher Diaz
 
-Hands-on cybersecurity lab portfolio demonstrating real-world skills in Linux, networking, system hardening, containerization, and enterprise identity management.
+Hands-on cybersecurity lab portfolio demonstrating real-world skills across Linux, networking, security automation, containerization, and enterprise identity systems.
 
 ---
 
 ## 👨‍💻 About Me
 
-Cybersecurity-focused IT professional with hands-on experience building and securing systems across Linux and Windows environments. This repository showcases practical lab work simulating real enterprise scenarios, including Active Directory deployment, automation, and cross-platform authentication.
+Cybersecurity-focused IT professional with hands-on experience building, securing, and automating systems across Linux and Windows environments. This repository showcases real lab work simulating enterprise scenarios, including Active Directory deployment, threat detection, and infrastructure automation.
 
 ---
 
 ## 🚀 What This Repository Proves
 
-✔️ I can build and manage Linux systems from the command line  
-✔️ I understand networking fundamentals and troubleshooting  
-✔️ I can secure and harden systems  
-✔️ I can deploy and manage containerized environments  
-✔️ I can design and manage enterprise identity systems (Active Directory)  
-✔️ I can automate administrative tasks using scripting (Bash & PowerShell)  
+✔️ Linux system administration and scripting  
+✔️ Network analysis and troubleshooting  
+✔️ Security monitoring and incident response  
+✔️ Python-based security automation  
+✔️ Containerized infrastructure deployment  
+✔️ Active Directory and enterprise identity management  
 
 ---
 
@@ -26,9 +26,10 @@ Cybersecurity-focused IT professional with hands-on experience building and secu
 - Linux (Ubuntu)
 - Windows Server 2022
 - Active Directory (AD DS)
-- PowerShell
+- Python
 - Bash
-- Docker
+- PowerShell
+- Docker & Docker Compose
 - SSSD / realmd
 - Git & GitHub
 
@@ -36,44 +37,48 @@ Cybersecurity-focused IT professional with hands-on experience building and secu
 
 ## 📂 Project Structure
 
-- **week1-linux** → Linux system administration  
-- **week2-networking** → Network analysis & troubleshooting  
-- **week3-security** → System hardening & auditing  
-- **week4-containers** → Docker & automation  
+- **week1-linux** → Linux discovery & system hardening  
+- **week2-networking** → Network auditing & protocol analysis  
+- **week3-security** → Threat detection & incident response automation  
+- **week4-containers** → Container deployment & isolated environments  
 - **week5-identity** → Active Directory & IAM  
-
 
 ---
 
 ## 📌 Highlight Projects
 
-### 🏢 Enterprise Identity Deployment (Week 5)
-- Promoted Windows Server to Domain Controller
-- Built full Active Directory forest (`titan.local`)
+### 🧠 Threat Detection & Automation (Week 3)
+- Built Python-based tools to detect brute force attacks
+- Developed incident response automation scripts
+- Generated structured security reports (JSON)
+
+### 🐳 Containerized Deployment (Week 4)
+- Deployed web environments using Docker
+- Built isolated (air-gapped) container stacks
+- Automated deployments with Bash
+
+### 🏢 Enterprise Identity System (Week 5)
+- Built Active Directory domain (`titan.local`)
 - Automated user provisioning with PowerShell
-- Enforced security policies using GPOs
-- Integrated Linux system into Windows domain
-
-### 🐳 Containerized Environment (Week 4)
-- Built and deployed Docker containers
-- Managed images and runtime environments
-- Practiced scalable application deployment
-
-### 🔐 System Hardening & Audit (Week 3)
-- Performed security audits
-- Applied system hardening techniques
-- Analyzed logs and access controls
+- Enforced security policies with GPOs
+- Integrated Linux authentication into AD
 
 ---
 
 ## 📊 Key Artifacts
 
-| Week | Artifact | Description |
-|------|--------|------------|
-| 3 | `security_audit.txt` | System vulnerability audit |
-| 4 | `docker_setup.sh` | Container deployment script |
-| 5 | `onboard_engineers.ps1` | Automated AD user provisioning |
-| 5 | `gpo_audit.txt` | Group Policy audit report |
+| Week | Artifact | Purpose |
+|------|--------|--------|
+| 1 | `discovery.txt` | System enumeration |
+| 1 | `harden.sh` | Linux hardening script |
+| 2 | `network_audit.txt` | Network analysis |
+| 3 | `brute_detector.py` | Brute force detection tool |
+| 3 | `incident_response.py` | Automated response script |
+| 3 | `security_alert.json` | Structured alert output |
+| 4 | `docker-compose.yml` | Multi-container deployment |
+| 4 | `deploy_web.sh` | Deployment automation |
+| 5 | `onboard_engineers.ps1` | AD user provisioning |
+| 5 | `gpo_audit.txt` | Policy audit |
 | 5 | `unified_identity.png` | Cross-platform authentication proof |
 
 ---
@@ -81,30 +86,15 @@ Cybersecurity-focused IT professional with hands-on experience building and secu
 ## 🧪 Skills Demonstrated
 
 - Linux Administration
-- Networking & Troubleshooting
-- Security Hardening
-- Scripting & Automation
+- Networking & Protocol Analysis
+- Security Monitoring & Incident Response
+- Python Automation (Security Tools)
+- Containerization (Docker)
 - Identity & Access Management (IAM)
 - Active Directory & Group Policy
-- Cross-Platform Authentication
-
----
-
-## 📈 Current Focus
-
-- Expanding into cybersecurity analysis & defense
-- Building more real-world attack/defense labs
-- Preparing for entry-level cybersecurity roles
-
----
-
-## 📬 Contact
-
-- [GitHub](https://github.com/chris12x1)
-- [LinkedIn](https://www.linkedin.com/in/christopherdiaz87)
 
 ---
 
 ## 🎯 Goal
 
-To secure a role in cybersecurity or IT where I can apply hands-on skills in system administration, security, and infrastructure management.
+To secure a cybersecurity or IT role where I can apply hands-on skills in system security, automation, and infrastructure management.
