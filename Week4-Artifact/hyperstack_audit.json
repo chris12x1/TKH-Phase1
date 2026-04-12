@@ -1,0 +1,10 @@
+{
+ "operator": "CD",
+ "host_ip": "10.0.2.15",
+ "vm_sandbox_ip": "192.168.56.102",
+ "web_container_id": "45eb72361b87",
+ "isolation_test": "PASSED",
+ "persistence_verified": true
+}
+
+
