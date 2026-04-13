@@ -59,9 +59,13 @@ This portfolio demonstrates the ability to **identify vulnerabilities, remediate
 ## 📂 Repository Structure
 
 week1-linux → Linux security, permissions, and forensic analysis
+
 week2-networking → Network troubleshooting, subnetting, and protocol analysis
+
 week3-security → Python automation, threat detection, and incident response
+
 week4-containers → Docker, container isolation, and multi-tier deployments
+
 week5-identity → Active Directory, GPOs, and enterprise IAM
 
 ---
