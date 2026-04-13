@@ -18,11 +18,11 @@ Develop automation tools to detect, analyze, and respond to security threats.
 ## 📂 Artifacts
 
 - `brute_detector.py` → Detects brute force attempts  
-- `brute_report.txt` → Detection results  
-- `port_check.py` → Port monitoring script  
-- `incident_response.py` → Automated response system  
-- `system_auditor.py` → System security checks  
-- `security_alert.json` → Alert output  
+- `brute_report.txt` → Detection results
+- `incident_response.py` → Automated response system
+- `port_check.py` → Port monitoring script      
+- `security_alert.json` → Alert output
+- `system_auditor.py` → System security checks
 - `threat_report.json` → Structured threat report  
 
 ---
