@@ -1,92 +1,159 @@
-# Week 4 — Containerization, Orchestration & Secure Deployment
+# Week 4 — Containerization, Isolation & Secure Architecture
 
 ## 🎯 Objective
-Design, deploy, and secure a **multi-tier containerized application stack** using Docker and Docker Compose, while enforcing **network segmentation and isolation** in a hybrid virtualized environment.
+Design, deploy, and secure containerized environments using Docker while enforcing **strict isolation, network segmentation, and disposable infrastructure principles**.
 
 ---
 
-## 🏗️ Project: Operation Fortified Node (TLAB 4)
+## 🏗️ Projects Completed
 
-Built a **three-tier containerized architecture** (WordPress + MariaDB) alongside a **sandboxed legacy VM**, ensuring strict isolation between environments.
+### 1️⃣ Malware Sandbox (Secure VM Isolation)
 
----
+**Goal:** Prevent malicious code from escaping a controlled environment.
 
-## 🛠️ Key Implementations
+#### 🔹 Implementation
+- Reconfigured VM networking from **Bridged → Host-Only Adapter**
+- Created a fully **air-gapped analysis environment**
+- Executed controlled payload simulation inside sandbox
 
-### 🔹 Container Orchestration
-- Designed and deployed a **multi-container application stack** using Docker Compose
-- Configured:
-  - **WordPress (Web Tier)**
-  - **MariaDB (Database Tier)**
-- Implemented **persistent storage** using Docker volumes
+#### 🔹 Security Validation
+- Performed external connectivity test:
+  - `ping google.com` → ❌ FAILED (expected)
+- Confirmed **no outbound internet access**
 
-### 🔹 Network Segmentation
-- Created two isolated Docker networks:
-  - `public_net` → exposes web service (port 80)
-  - `private_net` → restricts database access (internal only)
-- Ensured **database is not externally accessible**
+#### 🔹 Artifact
+- `sandbox_report.txt`
 
-### 🔹 Environment Hardening
-- Identified and removed rogue container (`decoy_web`) occupying port 80
-- Verified clean runtime environment before deployment
-- Prevented unauthorized service exposure
-
-### 🔹 Security Validation
-- Performed port scanning using `nmap`:
-  - Port 80 → Accessible (expected)
-  - Port 3306 → Blocked (secured)
-- Executed **container-to-VM isolation test**
-  - Verified containers cannot reach host-only network
-  - Confirmed proper network boundary enforcement
-
-### 🔹 Automation & Deployment
-- Built infrastructure using:
-  - `docker-compose.yml`
-  - Bash-based deployment workflows
-- Enabled rapid, repeatable environment setup
+#### 💡 What This Demonstrates
+- Malware containment strategies  
+- Hypervisor-level network isolation  
+- Safe analysis environment design  
 
 ---
 
-## 📂 Artifacts
+### 2️⃣ Disposable Web Server (Ephemeral Infrastructure)
 
-- `docker-compose.yml` → Defines full multi-tier architecture
-- `deploy_web.sh` → Automated deployment script
-- `sandbox_report.txt` → Environment documentation & validation
-- `hyperstack_audit.json` → Machine-readable security audit report
+**Goal:** Deploy and destroy a web server with zero persistence.
 
+#### 🔹 Implementation
+- Pulled and ran containers using Docker (`nginx`)
+- Deployed web server with:
+  - Port mapping (`8080 → 80`)
+  - Named container (`training-web`)
+- Modified live container content
+
+#### 🔹 Security & Operations
+- Inspected logs using `docker logs`
+- Verified container isolation (`ps aux`)
+- Fully removed container (no residual footprint)
+
+#### 🔹 Artifact
+- `deploy_web.sh`
+
+#### 💡 What This Demonstrates
+- Ephemeral infrastructure design  
+- Container lifecycle management  
+- Rapid deployment & teardown  
 
 ---
 
-## 🔍 Audit Highlights
+### 3️⃣ Air-Gapped Stack (Network Segmentation)
 
-- ✅ **Network segmentation enforced**
-- ✅ **Database isolated from public access**
-- ✅ **Persistent storage verified**
-- ✅ **Unauthorized container removed**
-- ✅ **Isolation test PASSED (no container → VM access)**
+**Goal:** Separate application tiers using isolated networks.
+
+#### 🔹 Implementation
+- Built multi-service stack using Docker Compose:
+  - WordPress (frontend)
+  - Database (backend)
+- Created two networks:
+  - `frontend` → internet access
+  - `backend` → internal only (`internal: true`)
+
+#### 🔹 Security Validation
+- WordPress container:
+  - `ping google.com` → ✅ SUCCESS
+- Database container:
+  - `ping google.com` → ❌ FAILED
+
+#### 🔹 Artifact
+- `docker-compose.yml`
+
+#### 💡 What This Demonstrates
+- Network segmentation in container environments  
+- Backend service isolation  
+- Secure multi-tier architecture design  
 
 ---
 
-## 💡 What This Demonstrates
+### 4️⃣ Fortified Node (TLAB 4 — Capstone)
 
-I can:
+**Goal:** Deploy a production-style, secure container architecture with validation and audit reporting.
 
-- Architect and deploy **containerized applications**
-- Implement **secure network segmentation**
-- Enforce **least-access principles in infrastructure**
-- Perform **security validation and auditing**
-- Automate deployments using **Docker + Bash**
-- Design **production-style multi-tier environments**
+#### 🔹 Implementation
+- Designed **three-tier architecture**:
+  - WordPress (Web Tier)
+  - MariaDB (Database Tier)
+  - Isolated VM sandbox
+- Created:
+  - `public_net` (external access)
+  - `private_net` (restricted backend)
+- Implemented persistent storage (`db_data` volume)
+
+#### 🔹 Environment Hardening
+- Identified and removed rogue container (`decoy_web`)
+- Cleared port conflicts before deployment
+
+#### 🔹 Security Validation
+- Conducted port scan:
+  - Port 80 → ✅ Open
+  - Port 3306 → ❌ Blocked
+- Executed isolation test:
+  - Container → VM communication → ❌ FAILED (secure)
+
+#### 🔹 Audit & Reporting
+- Generated machine-readable audit:
+  - `hyperstack_audit.json`
+- Captured:
+  - Network isolation status
+  - Container IDs
+  - Host/VM relationships
+  - Persistence verification
+
+#### 🔹 Artifacts
+- `docker-compose.yml`
+- `hyperstack_audit.json`
+- `sandbox_report.txt`
+
+---
+
+## 📂 Artifacts Summary
+
+- `deploy_web.sh` → Container deployment automation  
+- `docker-compose.yml` → Multi-tier architecture definition  
+- `sandbox_report.txt` → Malware sandbox validation  
+- `hyperstack_audit.json` → Security audit report  
+
+---
+
+## 🧠 Core Skills Demonstrated
+
+- Containerization (Docker)
+- Multi-container orchestration (Docker Compose)
+- Network segmentation & isolation
+- Secure infrastructure design
+- Malware sandboxing
+- Infrastructure validation & auditing
+- Ephemeral system deployment
+
 
 ---
 
 ## 🚀 Outcome
 
-Successfully deployed a **secure, isolated, and production-style container environment**, demonstrating real-world skills in:
+Developed and secured multiple containerized environments demonstrating:
 
-- DevOps engineering  
-- Infrastructure security  
-- Container orchestration  
-- Network isolation  
+- Real-world **DevOps workflows**
+- Practical **cybersecurity controls**
+- Production-style **infrastructure design**
 
-This project reflects how modern organizations **secure applications at the infrastructure level**, not just the code level.
+This week reflects the ability to **not just deploy systems — but secure and validate them**.
