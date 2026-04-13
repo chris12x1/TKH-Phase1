@@ -1,16 +1,17 @@
 # Week 3 — Security Automation & Incident Response
 
 ## 🎯 Objective
-Detect threats and automate security responses using Python.
+Develop automation tools to detect, analyze, and respond to security threats.
 
 ---
 
 ## 🛠️ What I Built
 
-- Brute force detection tool
-- Port monitoring script
-- Automated incident response system
-- Security auditing tools
+- Built a Python-based port scanner using sockets
+- Created log parsing tools to detect brute-force attacks
+- Automated system process auditing using subprocess
+- Generated structured JSON alerts for security events
+- Developed an end-to-end incident response script
 
 ---
 
@@ -30,12 +31,12 @@ Detect threats and automate security responses using Python.
 
 I can:
 - Build security tools using Python
-- Detect and respond to threats
-- Automate security workflows
-- Generate structured security data
-
+- Parse and analyze system logs programmatically
+- Automate threat detection workflows
+- Generate structured security reports (JSON)
+  
 ---
 
 ## 🚀 Outcome
 
-Demonstrated real-world security engineering and automation skills.
+Developed a full automation pipeline capable of detecting attacks, extracting indicators, and generating actionable threat intelligence.
