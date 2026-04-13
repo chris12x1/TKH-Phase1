@@ -17,9 +17,9 @@ Restore and secure network connectivity by diagnosing failures across multiple O
 
 ## 📂 Artifacts
 
+- `briefing.txt` → Summary report  
 - `network_audit.txt` → Network scan results  
 - `protocol_audit.txt` → Protocol analysis  
-- `briefing.txt` → Summary report  
 - `tlab_report.txt` → Full lab report  
 
 ---
