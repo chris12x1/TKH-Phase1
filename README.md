@@ -1,111 +1,142 @@
 # 🛡️ Cybersecurity Engineering Portfolio — Christopher Diaz
 
-Hands-on cybersecurity lab portfolio demonstrating real-world skills across Linux, networking, security automation, containerization, and enterprise identity systems.
+Hands-on cybersecurity portfolio demonstrating real-world experience in **system hardening, network defense, security automation, containerization, and enterprise identity management**.
+
+This repository reflects practical, scenario-based labs simulating **real security incidents, infrastructure failures, and enterprise environments**.
 
 ---
 
 ## 👨‍💻 About Me
 
-Cybersecurity-focused IT professional with hands-on experience building, securing, and automating systems across Linux and Windows environments. This repository showcases real lab work simulating enterprise scenarios, including Active Directory deployment, threat detection, and infrastructure automation.
+Cybersecurity-focused IT professional with hands-on experience securing and automating Linux and Windows environments.
+
+Skilled in:
+- Threat detection and log analysis  
+- Network troubleshooting and protocol analysis  
+- Security automation with Python and Bash  
+- Containerized infrastructure (Docker)  
+- Active Directory and enterprise identity systems  
+
+This portfolio demonstrates the ability to **identify vulnerabilities, remediate security issues, and automate defensive workflows** in realistic environments.
 
 ---
 
-## 🚀 What This Repository Proves
+## 🚀 What I Bring
 
-✔️ Linux system administration and scripting  
-✔️ Network analysis and troubleshooting  
-✔️ Security monitoring and incident response  
-✔️ Python-based security automation  
-✔️ Containerized infrastructure deployment  
-✔️ Active Directory and enterprise identity management  
+- 🔐 **System Hardening** — Secured misconfigured Linux systems and remediated critical permission vulnerabilities  
+- 🌐 **Network Defense** — Diagnosed and restored broken network stacks across multiple OSI layers  
+- 🤖 **Security Automation** — Built Python tools to detect attacks and generate structured threat intelligence  
+- 🐳 **Container Security** — Designed isolated, segmented container environments to reduce attack surface  
+- 🏢 **Enterprise Identity** — Deployed Active Directory and enforced access control across systems  
 
 ---
 
 ## 🧰 Technologies & Tools
 
+**Operating Systems**
 - Linux (Ubuntu)
-- Windows Server 2022
-- Active Directory (AD DS)
-- Python
-- Bash
-- PowerShell
-- Docker & Docker Compose
-- SSSD / realmd
-- Git & GitHub
+- Windows Server 2022  
+
+**Security & Networking**
+- TCP/IP, DNS, Subnetting, OSI Model  
+- Log Analysis & Packet Inspection  
+
+**Programming & Automation**
+- Python  
+- Bash  
+- PowerShell  
+
+**Infrastructure & Identity**
+- Docker & Docker Compose  
+- Active Directory (AD DS)  
+- SSSD / realmd  
+
+**Version Control**
+- Git & GitHub  
 
 ---
 
-## 📂 Project Structure
+## 📂 Repository Structure
 
-- **week1-linux** → Linux Security Foundations
-- **week2-networking** → Networking & OSI Operations
-- **week3-security** → Threat detection & incident response automation  
-- **week4-containers** → Container deployment & isolated environments  
-- **week5-identity** → Active Directory & IAM  
+week1-linux → Linux security, permissions, and forensic analysis
+week2-networking → Network troubleshooting, subnetting, and protocol analysis
+week3-security → Python automation, threat detection, and incident response
+week4-containers → Docker, container isolation, and multi-tier deployments
+week5-identity → Active Directory, GPOs, and enterprise IAM
 
 ---
 
-## 📌 Highlight Projects
+## 📌 Featured Work
 
-### 🧠 Threat Detection & Automation (Week 3)
-- Built Python-based tools to detect brute force attacks
-- Developed incident response automation scripts
-- Generated structured security reports (JSON)
+### 🔍 Threat Detection & Incident Response
+- Built Python scripts to detect brute-force attacks from authentication logs  
+- Extracted attacker IPs and generated structured JSON threat reports  
+- Automated log parsing and alert generation workflows  
 
-### 🐳 Containerized Deployment (Week 4)
-- Deployed web environments using Docker
-- Built isolated (air-gapped) container stacks
-- Automated deployments with Bash
+---
 
-### 🏢 Enterprise Identity System (Week 5)
-- Built Active Directory domain (`titan.local`)
-- Automated user provisioning with PowerShell
-- Enforced security policies with GPOs
-- Integrated Linux authentication into AD
+### 🌐 Network Recovery & Analysis
+- Restored connectivity on a sabotaged system by rebuilding interfaces and routes  
+- Corrected subnet misconfigurations blocking gateway communication  
+- Verified recovery using packet-level TCP handshake analysis  
+
+---
+
+### 🐳 Secure Container Deployment
+- Deployed isolated Docker environments for safe application execution  
+- Built multi-container architectures with enforced frontend/backend segmentation  
+- Validated network isolation to prevent unauthorized communication  
+
+---
+
+### 🏢 Active Directory & Identity Management
+- Promoted a Windows Server to a Domain Controller (`titan.local`)  
+- Automated user provisioning with PowerShell  
+- Enforced security policies using Group Policy Objects (GPOs)  
+- Integrated Linux authentication into Active Directory with SSSD  
 
 ---
 
 ## 📊 Key Artifacts
 
-| Week | Artifact | Purpose |
-|------|--------|--------|
-| 1 | `discovery.txt` | Filesystem reconnaissance and extracted secrets |
-| 1 | `final_threat_report.txt` | Automated system hardening script |
-| 1 | `harden.sh` | Deduplicated attacker IP list |
-| 1 | `threat_ips.txt` | Clean forensic report from compromised logs |
-| 2 | `briefing.txt` | Summary report |
-| 2 | `subnet_blueprint.txt` | CIDR corrections and subnet calculations |
-| 2 | `protocol_audit.txt` | DNS and service-level audit results |
-| 2 | `tlab_report.txt` | Full outage remediation and TCP handshake proof |
-| 3 | `brute_detector.py` | Brute-force detection and log filtering script |
-| 3 | `brute_report.txt` | Detection results |
-| 3 | `incident_response.py` | Automated threat detection and JSON reporting |
-| 3 | `port_check.py` | Network port scanning tool |
-| 3 | `security_alert.json` | Alert output |
-| 3 | `system_auditor.py` | Process auditing and alert generation tool |
-| 3 | `threat_report.json` | Structured threat report |
-| 4 | `deploy_web.sh` | Automated Docker deployment script |
-| 4 | `docker-compose.yml` | Multi-container segmented architecture |
-| 4 | `hyperstack_audit.json` | Container environment security audit |
-| 4 | `sandbox_report.txt` | Air-gapped malware sandbox validation |
-| 5 | `onboard_engineers.ps1` | Automated user provisioning script |
-| 5 | `gpo_audit.txt` | Group Policy enforcement audit report |
-| 5 | `unified_identity.png` | Cross-platform authentication and privilege proof |
+| Category | Artifact | Description |
+|----------|--------|------------|
+| Linux Security | `harden.sh` | Automated system hardening script |
+| Forensics | `final_threat_report.txt` | Extracted attacker activity from compromised logs |
+| Networking | `subnet_blueprint.txt` | CIDR correction and subnet validation |
+| Networking | `tlab_report.txt` | Full network outage recovery + TCP proof |
+| Automation | `port_check.py` | Python-based port scanning tool |
+| Automation | `incident_response.py` | End-to-end threat detection and reporting |
+| Containers | `docker-compose.yml` | Multi-container segmented architecture |
+| Identity | `onboard_engineers.ps1` | Automated AD user provisioning |
+| Identity | `gpo_audit.txt` | Group Policy enforcement audit |
 
 ---
 
-## 🧪 Skills Demonstrated
+## 🧪 Core Skills Demonstrated
 
-- Linux Administration
-- Networking & Protocol Analysis
-- Security Monitoring & Incident Response
-- Python Automation (Security Tools)
-- Containerization (Docker)
-- Identity & Access Management (IAM)
-- Active Directory & Group Policy
+- Linux System Administration & Hardening  
+- Network Troubleshooting & Protocol Analysis  
+- Threat Detection & Incident Response  
+- Python-Based Security Automation  
+- Containerization & Infrastructure Security  
+- Identity & Access Management (IAM)  
+- Active Directory & Group Policy  
 
 ---
 
-## 🎯 Goal
+## 🎯 Career Objective
 
-To secure a cybersecurity or IT role where I can apply hands-on skills in system security, automation, and infrastructure management.
+Seeking an entry-level **Cybersecurity Analyst / SOC Analyst / IT Security role** where I can apply hands-on experience in:
+
+- Threat detection and response  
+- System and network security  
+- Security automation and scripting  
+- Enterprise infrastructure management  
+
+---
+
+## 📬 Let’s Connect
+
+- [GitHub](https://github.com/chris12x1)  
+- [LinkedIn](https://linkedin.com/in/christopherdiaz87)
