@@ -1,15 +1,17 @@
 # Week 2 — Network Analysis & Auditing
 
 ## 🎯 Objective
-Analyze network behavior and identify potential security risks.
+Restore and secure network connectivity by diagnosing failures across multiple OSI layers.
 
 ---
 
 ## 🛠️ What I Did
 
-- Performed network scans and audits
-- Analyzed protocols and communication patterns
-- Documented findings in structured reports
+- Repaired downed network interfaces
+- Configured IP addressing and routing manually
+- Diagnosed subnet misconfigurations using CIDR
+- Investigated DNS poisoning and protocol manipulation
+- Captured packet-level evidence of network recovery
 
 ---
 
@@ -25,12 +27,13 @@ Analyze network behavior and identify potential security risks.
 ## 💡 What This Proves
 
 I can:
-- Analyze network traffic and behavior
-- Identify insecure protocols
-- Document findings clearly
+- Troubleshoot network failures across OSI layers
+- Configure routing and subnetting manually
+- Detect and fix DNS-based attacks
+- Validate connectivity using packet-level evidence
 
 ---
 
 ## 🚀 Outcome
 
-Built strong foundational networking and analysis skills.
+Successfully restored a sabotaged network, corrected subnet isolation, and proved full communication recovery via TCP handshake analysis.
