@@ -17,10 +17,10 @@ Deploy and secure containerized applications using isolation and network segment
 
 ## 📂 Artifacts
 
-- `sandbox_report.txt` → Malware sandbox validation
-- `deploy_web.sh` → Container deployment script 
+- `deploy_web.sh` → Container deployment script
 - `docker-compose.yml` → Multi-tier architecture
 - `hyperstack_audit.json` → Container security audit  
+- `sandbox_report.txt` → Malware sandbox validation
 
 ---
 
