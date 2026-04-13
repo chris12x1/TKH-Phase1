@@ -1,39 +1,39 @@
-# Week 1 — Linux Discovery & Hardening
+# Week 1 — Linux Security Foundations
 
 ## 🎯 Objective
-Perform system discovery and apply basic hardening techniques on a Linux system.
+Establish foundational Linux security skills by performing system enumeration, permission hardening, and log-based threat detection.
 
 ---
 
 ## 🛠️ What I Did
 
-- Navigated the Linux Filesystem Hierarchy (FHS)
-- Extracted sensitive data from restricted directories
-- Identified and remediated critical permission vulnerabilities
-- Built command-line pipelines to detect attacker activity
-- Performed forensic cleanup on a compromised system
+- Conducted filesystem reconnaissance by navigating the Linux FHS to locate sensitive system data and hidden artifacts
+- Extracted restricted information from protected directories, simulating post-exploitation discovery techniques
+- Identified and remediated critical permission misconfigurations, including insecure access to `/etc/shadow`
+- Developed command-line pipelines to detect malicious activity within log files using `grep`, `awk`, and `sort`
+- Performed incident cleanup on a compromised system by restoring access controls and extracting forensic evidence
 
 ---
 
 ## 📂 Artifacts
 
-- `discovery.txt` → Filesystem intelligence report
-- `final_threat_report.txt` → Threat analysis report
-- `harden.sh` → System hardening automation script  
-- `threat_ips.txt` → Extracted attacker IP list  
+- `discovery.txt` → Filesystem reconnaissance and extracted secrets 
+- `final_threat_report.txt` → Clean forensic report from compromised logs
+- `harden.sh` → Automated system hardening script  
+- `threat_ips.txt` → Attacker IP list  
 
 ---
 
 ## 💡 What This Proves
 
 I can:
-- Navigate and audit Linux systems securely
-- Identify and fix critical misconfigurations
-- Extract and process log-based threat data
-- Perform incident response using CLI tools
+- Ability to audit and navigate Linux systems securely
+- Understanding of file permissions and access control vulnerabilities
+- Experience extracting indicators of compromise (IOCs) from logs
+- Hands-on incident response and forensic data handling
 
 ---
 
 ## 🚀 Outcome
 
-Secured a compromised Linux system by restoring permissions, extracting attacker data, and producing validated forensic reports.
+Secured a compromised Linux environment by correcting critical permission flaws, identifying attacker activity, and producing validated forensic artifacts.
