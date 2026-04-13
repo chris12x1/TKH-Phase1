@@ -7,30 +7,33 @@ Perform system discovery and apply basic hardening techniques on a Linux system.
 
 ## 🛠️ What I Did
 
-- Conducted system enumeration
-- Identified potential risks
-- Applied hardening techniques using Bash scripting
+- Navigated the Linux Filesystem Hierarchy (FHS)
+- Extracted sensitive data from restricted directories
+- Identified and remediated critical permission vulnerabilities
+- Built command-line pipelines to detect attacker activity
+- Performed forensic cleanup on a compromised system
 
 ---
 
 ## 📂 Artifacts
 
-- `discovery.txt` → System discovery output  
-- `threat_ips.txt` → Identified suspicious IPs  
+- `discovery.txt` → Filesystem intelligence report
+- `threat_ips.txt` → Extracted attacker IP list  
 - `final_threat_report.txt` → Threat analysis report  
-- `harden.sh` → System hardening script  
+- `harden.sh` → System hardening automation script
 
 ---
 
 ## 💡 What This Proves
 
 I can:
-- Analyze a Linux system for threats
-- Identify suspicious activity
-- Apply security controls using scripts
+- Navigate and audit Linux systems securely
+- Identify and fix critical misconfigurations
+- Extract and process log-based threat data
+- Perform incident response using CLI tools
 
 ---
 
 ## 🚀 Outcome
 
-Developed foundational skills in system visibility and basic defensive security.
+Secured a compromised Linux system by restoring permissions, extracting attacker data, and producing validated forensic reports.
