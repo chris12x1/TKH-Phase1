@@ -1,49 +1,40 @@
 # Week 5 — Enterprise Identity & Active Directory
 
 ## 🎯 Objective
-Build and manage an enterprise identity system and integrate Linux into a Windows domain.
+Design and manage enterprise identity infrastructure using Active Directory, Group Policy, and cross-platform authentication.
 
 ---
 
 ## 🛠️ What I Built
 
-### Active Directory
-- Promoted Windows Server to Domain Controller
-- Created domain: `titan.local`
-- Built Organizational Units (OUs)
-
-### Automation
-- Scripted bulk user creation using PowerShell
-
-### Policy Enforcement
-- Created and applied Group Policy Objects (GPOs)
-- Enforced system restrictions
-
-### Cross-Platform Integration
-- Joined Linux system to Active Directory
-- Configured SSSD authentication
-- Enabled domain-based sudo access
+- Promoted a Windows Server to a Domain Controller and configured a new Active Directory forest
+- Designed and implemented Organizational Unit (OU) structures to logically group enterprise users
+- Automated user provisioning at scale using PowerShell scripting (New-ADUser)
+- Enforced security policies using Group Policy Objects (GPOs) to restrict unauthorized user actions
+- Applied and validated policy enforcement using gpupdate and system-level testing
+- Integrated a Linux system into the Active Directory domain using realmd and sssd
+- Configured cross-platform privilege escalation, granting domain administrators root access on Linux systems
 
 ---
 
 ## 📂 Artifacts
 
-- `onboard_engineers.ps1` → User provisioning script  
-- `gpo_audit.txt` → Policy audit report  
-- `unified_identity.png` → Authentication proof  
+- `onboard_engineers.ps1` → Automated user provisioning script
+- `gpo_audit.txt` → Group Policy enforcement audit report
+- `unified_identity.png` → Cross-platform authentication and privilege proof
 
 ---
 
 ## 💡 What This Proves
 
 I can:
-- Manage enterprise identity systems
-- Automate administrative tasks
-- Enforce security policies at scale
-- Integrate Linux and Windows environments
-
+- Ability to manage enterprise identity and access control systems
+- Experience automating administrative tasks in Active Directory
+- Understanding of centralized policy enforcement at scale
+- Capability to integrate Linux and Windows environments under a unified identity model
+  
 ---
 
 ## 🚀 Outcome
 
-Demonstrated enterprise-level system administration and identity management skills.
+Built a fully functional enterprise identity environment with centralized authentication, automated provisioning, enforced security policies, and cross-platform administrative control.
