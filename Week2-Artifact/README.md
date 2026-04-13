@@ -1,39 +1,39 @@
-# Week 2 — Network Analysis & Auditing
+# Week 2 — Networking & OSI Operations
 
 ## 🎯 Objective
-Restore and secure network connectivity by diagnosing failures across multiple OSI layers.
+Diagnose and restore network connectivity by troubleshooting failures across multiple layers of the OSI model.
 
 ---
 
 ## 🛠️ What I Did
 
-- Repaired downed network interfaces
-- Configured IP addressing and routing manually
-- Diagnosed subnet misconfigurations using CIDR
-- Investigated DNS poisoning and protocol manipulation
-- Captured packet-level evidence of network recovery
+- Restored network connectivity by identifying and enabling downed interfaces at the data link layer
+- Configured IP addressing and manually rebuilt routing tables to re-establish external communication
+- Diagnosed subnet misconfigurations using CIDR analysis and corrected network boundaries to restore gateway access
+- Investigated DNS poisoning by auditing /etc/hosts and validating domain resolution integrity
+- Captured packet-level evidence of successful communication, including TCP handshake validation
 
 ---
 
 ## 📂 Artifacts
 
 - `briefing.txt` → Summary report  
-- `network_audit.txt` → Network scan results  
-- `protocol_audit.txt` → Protocol analysis  
-- `tlab_report.txt` → Full lab report  
+- `subnet_blueprint.txt` → CIDR corrections and subnet calculations  
+- `protocol_audit.txt` → DNS and service-level audit results  
+- `tlab_report.txt` → Full outage remediation and TCP handshake proof  
 
 ---
 
 ## 💡 What This Proves
 
 I can:
-- Troubleshoot network failures across OSI layers
-- Configure routing and subnetting manually
-- Detect and fix DNS-based attacks
-- Validate connectivity using packet-level evidence
-
+- Ability to troubleshoot network failures across OSI layers
+- Strong understanding of subnetting and routing concepts
+- Experience identifying and remediating DNS-based attacks
+- Capability to validate connectivity using packet-level analysis
+  
 ---
 
 ## 🚀 Outcome
 
-Successfully restored a sabotaged network, corrected subnet isolation, and proved full communication recovery via TCP handshake analysis.
+Successfully restored a fully sabotaged network by correcting subnet constraints, rebuilding routing paths, and verifying communication through packet capture evidence.
