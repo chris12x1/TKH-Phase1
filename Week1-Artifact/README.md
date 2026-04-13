@@ -18,9 +18,9 @@ Perform system discovery and apply basic hardening techniques on a Linux system.
 ## 📂 Artifacts
 
 - `discovery.txt` → Filesystem intelligence report
+- `final_threat_report.txt` → Threat analysis report
+- `harden.sh` → System hardening automation script  
 - `threat_ips.txt` → Extracted attacker IP list  
-- `final_threat_report.txt` → Threat analysis report  
-- `harden.sh` → System hardening automation script
 
 ---
 
