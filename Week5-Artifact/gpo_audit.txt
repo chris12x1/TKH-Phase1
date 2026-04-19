@@ -1,0 +1,13 @@
+==================================================
+SESSION 14: GROUP POLICY AUDIT REPORT
+==================================================
+
+QUESTION 1: What specific command do you run on a client machine to force it to download the latest Group Policy from the Domain Controller?
+gpupdate /force
+
+QUESTION 2: Explain the LSDOU acronym. If a Local Policy says "Enable USB" but the Domain Policy says "Disable USB", which one wins and why?
+LSDOU stands for Local,Site,Domain, and Organizational Unit
+The Domain Policy wins and USB will be disabled because Group policy follows the "last Writer Wins" rule. Policies are applied in order from broadest (local) to most specific (OU). Since the domain policy is applied after the local policy, it overwries the local setting.
+
+QUESTION 3: Why is it best practice to apply GPOs to Organizational Units (OUs) rather than the entire Domain?
+Applying GPOs to OUs allows for granular control and follow the principle of least privilege.
