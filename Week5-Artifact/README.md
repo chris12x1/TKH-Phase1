@@ -1,40 +1,57 @@
 # Week 5 — Enterprise Identity & Active Directory
 
 ## 🎯 Objective
-Design and manage enterprise identity infrastructure using Active Directory, Group Policy, and cross-platform authentication.
+Design, implement, and validate enterprise identity infrastructure using Active Directory, Group Policy, and cross-platform authentication between Windows and Linux systems.
+
 
 ---
 
 ## 🛠️ What I Built
 
-- Promoted a Windows Server to a Domain Controller and configured a new Active Directory forest
-- Designed and implemented Organizational Unit (OU) structures to logically group enterprise users
-- Automated user provisioning at scale using PowerShell scripting (New-ADUser)
-- Enforced security policies using Group Policy Objects (GPOs) to restrict unauthorized user actions
-- Applied and validated policy enforcement using gpupdate and system-level testing
-- Integrated a Linux system into the Active Directory domain using realmd and sssd
-- Configured cross-platform privilege escalation, granting domain administrators root access on Linux systems
+- Promoted a Windows Server to a Domain Controller and deployed a new Active Directory forest (`titan.local`)
+- Designed and implemented Organizational Unit (OU) structures to logically group enterprise users (Engineering OU)
+- Automated user provisioning at scale using PowerShell scripting (`New-ADUser`) for consistent onboarding
+- Configured and enforced security policies using Group Policy Objects (GPOs), targeting specific OUs
+- Validated GPO enforcement using `gpupdate /force` and system-level verification
+- Integrated a Linux (Ubuntu) system into the Active Directory domain using `realmd` and `sssd`
+- Configured DNS and Kerberos authentication to enable successful domain discovery and join
+- Established cross-platform administrative control by mapping the **Domain Admins** group to Linux sudo privileges
+- Configured `/etc/sudoers.d/domain_admins` to allow centralized privilege escalation from Active Directory
 
 ---
 
 ## 📂 Artifacts
 
-- `onboard_engineers.ps1` → Automated user provisioning script
-- `gpo_audit.txt` → Group Policy enforcement audit report
-- `unified_identity.png` → Cross-platform authentication and privilege proof
+- `onboard_engineers.ps1` → Automated user provisioning script  
+- `onboard_engineers_proof_*.png` → Proof of successful account creation  
+- `gpo_audit.txt` → Group Policy enforcement and validation report (Session 14)  
+- `unified_identity.png` → Domain authentication and root privilege proof (Session 15)  
+- `tlab5_report.txt` → Final enterprise audit report validating full environment
 
 ---
 
 ## 💡 What This Proves
 
 I can:
-- Ability to manage enterprise identity and access control systems
-- Experience automating administrative tasks in Active Directory
-- Understanding of centralized policy enforcement at scale
-- Capability to integrate Linux and Windows environments under a unified identity model
+- Deploy and manage **Active Directory environments**
+- Automate identity provisioning using **PowerShell**
+- Enforce and validate **Group Policy security controls**
+- Integrate **Linux systems into Windows domains**
+- Configure **cross-platform authentication (Kerberos / SSSD)**
+- Implement **centralized privilege escalation using domain groups**
+- Perform **full environment validation through auditing and reporting**
   
 ---
 
 ## 🚀 Outcome
 
-Built a fully functional enterprise identity environment with centralized authentication, automated provisioning, enforced security policies, and cross-platform administrative control.
+Built and validated a fully functional enterprise identity environment where:
+
+- Active Directory centrally manages authentication and access control  
+- Users are provisioned automatically and organized within OUs  
+- Security policies are enforced across the domain via GPOs  
+- Linux systems authenticate using domain credentials  
+- Domain Admins have controlled root access on Linux systems  
+- A full audit (TLAB 5) confirms domain health, identity structure, GPO enforcement, and system integration  
+
+End-to-end enterprise identity lifecycle successfully deployed, enforced, and validated.
