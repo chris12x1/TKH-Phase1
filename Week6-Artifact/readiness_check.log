@@ -1,0 +1,15 @@
+==================================================
+SESSION 16: READINESS INVENTORY
+==================================================
+Operator: Christopher Diaz
+Date: 04/14/2026
+
+Confidence Audit (Yes/No):
+1. Nmap (Network Scanning): [Yes]
+2. Docker (Containerization): [Yes]
+3. Linux Hardening (UFW/chmod): [Yes]
+4. VS Code Remote-SSH: [Yes]
+
+Identify your weakest area and your plan to review it:
+My weakest area was when investigating the ghost_web container. It wasn't a simple remove and stop process, but understanding all parts of the OSI layers. My plan is to start thinking about all the layers when troubleshooting.
+==================================================
