@@ -1,5 +1,6 @@
 # CLOUDNANO REMEDIATION PLAN
-**Operator:Christopher Diaz** ## TOP 5 CRITICAL FIXES
+**Operator:Christopher Diaz** 
+## TOP 5 CRITICAL FIXES
 *(From the 10 raw findings, select the 5 that pose the greatest ACTUAL risk. Explain your reasoning.)*
 
 1. **[CVSS 9.8] Unauthenticated AWS S3 Bucket (Contains Customer PII)**
