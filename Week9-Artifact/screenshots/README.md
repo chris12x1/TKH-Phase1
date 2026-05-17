@@ -39,7 +39,7 @@ This directory contains the technical evidence for the black-box assessment of t
 * **Result:** Exfiltrated Order **#501**, revealing a **"Confidential Server Lease"** valued at **$15,000.00**.
 * **Significance:** Confirmed a critical failure in the API's authorization logic, allowing unauthorized access to sensitive financial records via simple ID manipulation.
 
-![API BOLA Exfiltration Evidence](./03_api_bola_exfiltration.png)
+![API BOLA Exfiltration Evidence](.//03_phase3_api_bola_exfiltration.png) 
 
 ---
 
