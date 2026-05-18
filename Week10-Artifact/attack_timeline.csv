@@ -1,0 +1,4 @@
+Timestamp,Source IP,Event Type,Action,Description
+Apr 30, 2026 @ 06:15:00.000, 198.51.100.44, Web Server, Initial Access, Threat actor successfully uploaded and executed an malicious payload.
+Apr 30, 2026 @ 06:25:00.000, 10.0.5.15, Windows Security, Lateral Movement, Threat actor was able to escalate to Domain Admin.
+Apr 30, 2026 @ 06:45:00.000, 198.51.100.44, Firewall, Exfiltration, Threat actor was able to successfully exported 4.5 GB over port 443. 
